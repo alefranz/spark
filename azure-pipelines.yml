@@ -183,7 +183,7 @@ jobs:
       inputs:
         versionSpec: '4.9.2'
 
-    - task: MicroBuildSigningPlugin@2
+    - task: MicroBuildSigningPlugin@3
       displayName: Install MicroBuild plugin
       inputs:
         signType: $(_SignType)
